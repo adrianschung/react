@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class valueer extends Component {
+export default class Counter extends Component {
   state = {
     value: this.props.value,
     tags: ['tag1', 'tag2', 'tag3'],
